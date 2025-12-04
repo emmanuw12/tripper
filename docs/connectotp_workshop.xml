@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+
+<!ENTITY introduction SYSTEM "introduction.xml">
+<!ENTITY installation SYSTEM "installation.xml">
+<!ENTITY generating_mobilityDB_trips SYSTEM "../gen_mobilityDb_trips.xml">
+<!ENTITY generate_process SYSTEM "generate_process.xml">
+<!ENTITY benchmark SYSTEM "benchmark.xml">
+
+]>
+<book lang="en">
+	<bookinfo>
+		<title>MobilityDB-OpenTripPlanner : Workshop</title>
+		<author>
+			<firstname>Mehdi</firstname>
+			<surname>Maazouz</surname>
+			<affiliation>
+				<orgname>Université libre de Bruxelles, Belgium</orgname>
+			</affiliation>
+		</author>
+
+		<pubdate><?dbtimestamp format="Y-m-d"?>.</pubdate>
+		<abstract>
+			<para>
+				This workshop is about generating trajectories using <ulink url="https://www.opentripplanner.org/">OpenTripPlanner</ulink> and connecting <ulink url="https://github.com/MobilityDB/MobilityDB">MobilityDB</ulink> to those trajectories.
+				This workshop is open source and its code is available on <ulink url="https://github.com/MobilityDB/MobilityDB-OpenTripPlanner">GitHub</ulink>.
+				The visualization will be done with <ulink url="https://www.qgis.org/en/site/">QGIS</ulink>.
+			</para>
+
+			<para>
+				MobilityDB-OpenTripPlanner is developed by the student Maazouz Mehdi in the framework of his thesis in computer science in the Université Libre de Bruxelles (ULB) under the direction of Prof. Esteban Zimányi.
+			</para>
+
+
+			<para>
+				This is the workshop for MobilityDB-OpenTripPlanner.  Feel free to use this material any way you like.
+			</para>
+
+		</abstract>
+	</bookinfo>
+
+	&introduction;
+	&installation;
+	&generating_mobilityDB_trips;
+	&generate_process;
+	&benchmark;
+	<index />
+
+</book>
