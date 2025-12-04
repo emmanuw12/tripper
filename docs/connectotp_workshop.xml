@@ -6,7 +6,7 @@
 
 <!ENTITY introduction SYSTEM "introduction.xml">
 <!ENTITY installation SYSTEM "installation.xml">
-<!ENTITY generating_mobilityDB_trips SYSTEM "../gen_mobilityDb_trips.xml">
+<!ENTITY generating_mobilityDB_trips SYSTEM "generating_mobilityDB_trips.xml">
 <!ENTITY generate_process SYSTEM "generate_process.xml">
 <!ENTITY benchmark SYSTEM "benchmark.xml">
 
@@ -25,9 +25,9 @@
 		<pubdate><?dbtimestamp format="Y-m-d"?>.</pubdate>
 		<abstract>
 			<para>
-				This workshop is about generating trajectories using <ulink url="https://www.opentripplanner.org/">OpenTripPlanner</ulink> and connecting <ulink url="https://github.com/MobilityDB/MobilityDB">MobilityDB</ulink> to those trajectories.
-				This workshop is open source and its code is available on <ulink url="https://github.com/MobilityDB/MobilityDB-OpenTripPlanner">GitHub</ulink>.
-				The visualization will be done with <ulink url="https://www.qgis.org/en/site/">QGIS</ulink>.
+				This workshop is about generating trajectories using <ulink url="https://www.opentripplanner.org/">OpenTripPlanner</ulink> and connect <ulink url="https://github.com/MobilityDB/MobilityDB">MobilityDB</ulink> on those trajectories.
+				This workshop is open source and its code is available on <ulink url="https://github.com/MobilityDB/MobilityDB-OpenTripPlanner">Github</ulink>
+        The vilualization will be done by <ulink url="https://www.qgis.org/en/site/">Qgis</ulink>
 			</para>
 
 			<para>
